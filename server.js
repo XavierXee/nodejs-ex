@@ -7,6 +7,8 @@ var express = require('express'),
     
 Object.assign=require('object-assign')
 
+console.log('test');
+
 app.engine('html', require('ejs').renderFile);
 app.use(morgan('combined'))
 
